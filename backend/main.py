@@ -1,5 +1,5 @@
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect # type: ignore
+from fastapi.middleware.cors import CORSMiddleware # type: ignore
 import asyncio
 import logging
 from typing import List
